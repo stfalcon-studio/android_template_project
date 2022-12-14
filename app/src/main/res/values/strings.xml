@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sample App</string>
+
+    <string name="all_next">Next</string>
+    <string name="all_ok">OK</string>
+    <string name="all_loading">Loading data…</string>
+    <string name="all_yes">Yes</string>
+    <string name="all_save">Save</string>
+    <string name="all_send">Send</string>
+    <string name="all_cancel">Cancel</string>
+    <string name="all_continue">Continue</string>
+    <string name="all_back">Back</string>
+    <string name="all_email">Email</string>
+    <string name="all_delete_title">Are you sure you want to delete account?</string>
+    <string name="all_logout_title">Are you sure you want to logout?</string>
+    <string name="all_logout">Log Out</string>
+    <string name="all_delete_acc">Delete Account</string>
+    <string name="all_internet_not_connection">Internet not connection</string>
+    <string name="all_please_check_your_internet_connection">Please check your internet connection</string>
+    <string name="all_try_again">Try again</string>
+    <string name="all_your_gps_is_disable">Your GPS is disable</string>
+    <string name="all_please_turn_on_your_gps">Please turn on your GPS for received your location</string>
+    <string name="all_current_location">Your current location</string>
+    <string name="all_finish">Finish</string>
+    <string name="all_retry">Retry</string>
+    <string name="error_server_api">Whoops, looks like something went wrong</string>
+    <string name="all_no_location_providers">Location detection is disabled. Please enable it in the settings</string>
+    <string name="all_empty">There is nothing here yet</string>
+
+    <string name="posts_count_formatter">Posts count: %d</string>
+</resources>

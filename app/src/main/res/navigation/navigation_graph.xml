@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/usersFragment">
+
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.typicode.android.features.users.UsersFragment"
+        android:label="UsersFragment"
+        tools:layout="@layout/fragment_user">
+        <action
+            android:id="@+id/action_usersFragment_to_postsFragment"
+            app:destination="@id/postsFragment"
+            app:enterAnim="@anim/enter_from_left"
+            app:exitAnim="@anim/exit_to_left"
+            app:popEnterAnim="@anim/enter_from_right"
+            app:popExitAnim="@anim/exit_to_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/postsFragment"
+        android:name="com.typicode.android.features.posts.PostsFragment"
+        android:label="PostsFragment"
+        tools:layout="@layout/fragment_posts">
+        <argument
+            android:name="user"
+            app:argType="com.typicode.android.common.models.UserModel" />
+    </fragment>
+
+</navigation>
